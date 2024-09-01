@@ -20,7 +20,7 @@ To run this project, ensure you have Python installed on your system. Follow the
 
 ## Demonstration
 
-Watch the demonstration video to see the chatbot in action: [demo.mp4](./mental-health-chatbot/demo.mp4)
+Watch the demonstration video to see the chatbot in action: [demo.mp4](demo.mp4)
 
 > Note: Click the link above to view or download the video.
 
