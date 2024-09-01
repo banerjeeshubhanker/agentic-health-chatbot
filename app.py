@@ -18,10 +18,10 @@ app = Flask(__name__)
 CORS(app)  # Allows cross-origin requests from React
 
 # Set up API keys securely
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD2qlb_XuPny8ypdiBUR27x_Keyof8ACog"
-os.environ["ELEVEN_LABS_API_KEY"] = "sk_0f277851c7e9546a7245e759f2cabf719ed331b7fdd322ea"  # Your Eleven Labs API key
-os.environ["ASSEMBLY_AI_API_KEY"] = "6f9372d6ddc94935acb72f46bc897a62"  # Your AssemblyAI API key
-os.environ["SERPER_API_KEY"] = "0a854f34394ce6e7ee9e0b59cf76e36dc8d4536d"  # Your Serper API key
+os.environ["GOOGLE_API_KEY"] = ""
+os.environ["ELEVEN_LABS_API_KEY"] = ""  # Your Eleven Labs API key
+os.environ["ASSEMBLY_AI_API_KEY"] = ""  # Your AssemblyAI API key
+os.environ["SERPER_API_KEY"] = ""  # Your Serper API key
 
 # Initialize clients
 client = ElevenLabs(api_key=os.getenv("ELEVEN_LABS_API_KEY"))
