@@ -27,6 +27,6 @@ Watch the demonstration video to see the chatbot in action: [demo.mp4](./mental-
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/banerjeeshubhanker/agentic-health-chatbot.git
    cd mental-health-chatbot
 
